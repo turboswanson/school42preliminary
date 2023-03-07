@@ -1,4 +1,4 @@
-SHELL
+*******************************************SHELL**************************************************
 ______________________________________________________________________________________________
 1 echo Z > z
 *
@@ -23,3 +23,29 @@ ________________________________________________________________________________
 *
 9 ls -Ump > file_name   /* list of current directory's files in file_name
 *
+10 patch file
+| file a, file b contains file a details + changes, we need to patch file a with file b changes 
+| diff a b > c
+| patch a -i c -0 a_new
+*
+
+
+
+
+
+_______________________________________________________________________________________________________
+
+********************************************GITHUB*****************************************************
+_______________________________________________________________________________________________________
+1 git remote add origin git@github.com:turboswanson/42.git
+#
+2 git branch -M main
+#
+3 create script.sh to show commit's ID
+#!/bin/sh or #!/bin/bash
+git log -n 5 --pretty=format:"%H"
+
+to launch it : sh script.sh
+#
+4 touch .gitignore
+
