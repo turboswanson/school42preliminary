@@ -1,0 +1,64 @@
+//SHELL00//
+0. Make Z file
+
+1. to make a file and apply a date and permissions to it
+
+2. to make files and directories with dates and permissions
+
+3.Kerberos
+
+4.To make a file with list of all files and subdirectories
+
+5. to make a script(SH) that shows you list of 5 last commits 
+
+6.to make a script that shows you all of .gitignore files and directories
+
+7.to edit a file with changes using diff and patch
+
+8. to make a script to find specific files using find command
+
+9. to find 42 type of file with a number 42 in 42th byte of it
+
+//SHELL01//
+
+1. to make a script that shows you groups of users which includes a specific name
+
+2. to make a script to find all .sh files
+
+3.to make a script that shows you numbers of all files and subdirectories
+
+4.to show the MAC addresses
+
+6.to show next string (skip currents)
+
+7. show cat/etc/passwd with deleting comments, each string since the second one, sorting it since Z to A etc.
+
+8.
+
+//C00//
+1.ft_putchar
+2.print_alphabet
+3.reverse_alphabet
+4.positive/negative
+5.three numbers combination
+6. two numbers combination
+7. ft_putnbr(42) отобразит "42".
+8.combination of n - numbers
+
+//C01//
+0 to make a pointer to an int and make it = 42
+1. pointer to a pointer to a pointer to a pointer ****a 
+2. to swap pointer's definitions
+3. a/b and a%b <=== *div and *mod
+5. ft_putstr
+6. ft_strlen
+7. to reverse array
+9. to sort array
+
+//C02//
+
+
+
+
+
+
