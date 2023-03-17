@@ -69,6 +69,34 @@
 10. strlcpy
 12. print_memory (https://younglinux.info/c/pointers)
 
+//C03//
+0.ft_stcmp;
+1.ft_strncmp;
+2.ft_strcat; (add to a string);
+4.strstr
+5.strlcat
+
+//C04//
+0.ft_strlen
+1.ft_putstr
+2.ft_putnbr
+3.ft_atoi
+
+/C05//
+0.factorial
+1.recusrsive_factorial
+2.power (2^8);
+3.recursive power 
+4.sqrt
+5.if num%1==0 && num%num==0 ===>0
+    else ===> 1
+6.if num%1==0 && num%num==0 only ===> printf(num);
+    else - find the next num which is num%1==0 && num%num==0 only;     
+
+
+
+
+
 
 
 
