@@ -20,6 +20,11 @@ int main(void){
     int n=10;
     int * a = malloc(n*sizeof(int));
 
+    if(a == NULL){ // Обработка ошибки выделения памяти
+        printf("n/a\n");
+        return 0;
+    }
+
     f_scan(a,n); 
     f_print(a,n);
 
