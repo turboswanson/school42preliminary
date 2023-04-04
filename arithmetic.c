@@ -18,10 +18,10 @@ int div(int a,int b){
 
 int main(void){
     int a=0,b=0;
-    char c;
-    scanf("%d%d%c",&a,&b,&c);
+    char c1,c2;
+    scanf("%d%c%d%c",&a,&c1,&b,&c2);
     
-    if(c != '\n'){
+    if(c1 !=32 || c2 != '\n'){
         printf("n/a\n");
         return 0;
     }
