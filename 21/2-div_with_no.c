@@ -8,12 +8,16 @@ int f_scanf(int num){
    
    return num;
        
-    }
+}
 
 
 int f_div(int num){
     int a = 0, b = 0;
-    
+
+    if (num < 0){
+        num *= -1;
+    }
+
     for (int i=1;i<10;i++){
         while(a<num){
             a += i;
@@ -34,7 +38,9 @@ int main(void){
     int num = f_scanf(num);
 
     if ( num != 0){
+
     int res = f_div(num);
+
     printf("%d",res);
     }
 
